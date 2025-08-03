@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>RTP Slot Hari Ini</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>RTP SLOT HARI INI</h1>
+    <nav>
+      <button onclick="filterCategory('HOT')">HOT</button>
+      <button onclick="filterCategory('RTP LIVE')">RTP LIVE</button>
+      <button onclick="filterCategory('SLOT GACOR')">SLOT GACOR</button>
+      <input type="text" id="searchInput" onkeyup="searchGame()" placeholder="Cari nama game...">
+    </nav>
+  </header>
+  <main id="gameContainer" class="grid"></main>
+  <script src="script.js"></script>
+</body>
+</html>
